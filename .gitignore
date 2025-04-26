@@ -21,3 +21,4 @@ gradlew
 gradle.properties
 gradle-wrapper.properties
 gradle-wrapper.jar
+.gitignore

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/schedule_navigation"
+        android:icon="@drawable/ic_schedule_24"
+        android:title="@string/schedule_screen_title" />
+    <item
+        android:id="@id/client_base_navigation"
+        android:icon="@drawable/ic_people_24"
+        android:title="Клиенты" />
+
+    <item
+        android:id="@id/consumables_navigation"
+        android:icon="@drawable/ic_inventory_24"
+        android:title="Расходники" />
+
+    <item
+        android:id="@id/free_slots_navigation"
+        android:icon="@drawable/ic_event_available_24"
+        android:title="Окошки" />
+
+</menu>

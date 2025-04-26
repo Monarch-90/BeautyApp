@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/schedule_navigation">
+    <fragment
+        android:id="@+id/schedule_navigation"
+        android:name="com.tatiana.feature_schedule.ui.fragment.ScheduleFragment"
+        android:label="@string/schedule_screen_title"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/client_base_navigation"
+        android:name="androidx.fragment.app.Fragment"
+        android:label="База клиентов"
+        tools:layout="@android:layout/list_content" />
+    <fragment
+        android:id="@+id/consumables_navigation"
+        android:name="androidx.fragment.app.Fragment"
+        android:label="Расходники"
+        tools:layout="@android:layout/list_content" />
+    <fragment
+        android:id="@+id/free_slots_navigation"
+        android:name="androidx.fragment.app.Fragment"
+        android:label="Свободные окошки"
+        tools:layout="@android:layout/list_content" />
+</navigation>
