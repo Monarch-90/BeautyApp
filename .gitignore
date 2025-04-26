@@ -1,0 +1,23 @@
+Ignore IntelliJ project files
+.idea/
+*.iml
+
+# Gradle files
+.gradle/
+local.properties
+build/
+
+# Android artifacts
+app/build/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+gradlew.bat
+proguard-rules.pro
+gradlew
+gradle.properties
+gradle-wrapper.properties
+gradle-wrapper.jar
