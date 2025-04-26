@@ -1,0 +1,1 @@
+## Application for beauty business
